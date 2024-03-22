@@ -39,6 +39,9 @@ To get started:
 5. **To search product**
    - `/api/search_product` (GET): Search product from cart.
   
+## Access website on PythonAnywhere
+
+[PythonAnywhere](https://madhavisonawane.pythonanywhere.com/)
 
 ## Screenshots
 
