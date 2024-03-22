@@ -1,0 +1,20 @@
+title E-commerce API Interactions with Payment and Checkout
+
+User->Website: Requests to view products
+Website->Flask API: GET /display_products
+Flask API-->Website: Returns list of products
+User->Website: Requests to view a specific product
+Website->Flask API: GET /display_product/<product_id>
+Flask API-->Website: Returns product details
+User->Website: Adds a product to the cart
+Website->Flask API: POST /add_product
+Flask API->Website: Adds product to the database
+User->Website: Views the shopping cart
+Website->Flask API: GET /cart/view?user_id=<user_id>
+Flask API-->Website: Returns user's cart contents
+User->Website: Proceeds to checkout
+Website->Flask API: POST /checkout
+Flask API->Payment Gateway: Initiates payment process
+Payment Gateway->Flask API: Confirms payment success
+Flask API->Website: Completes checkout process
+User->Website: Receives order confirmation
