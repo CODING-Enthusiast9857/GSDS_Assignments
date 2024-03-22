@@ -9,6 +9,24 @@ products = [
         'name': 'Mac Book Pro',
         'price': 45.55,
         'description': 'Amazing laptop with awesome security'
+    },
+    {
+        'id': 2,
+        'name': 'iPhone 11',
+        'price': 90.55,
+        'description': 'Amazing phone with awesome security'
+    },
+    {
+        'id': 3,
+        'name': 'iPhone 11 Pro',
+        'price': 120.55,
+        'description': 'Amazing phone with awesome security'
+    },
+    {
+        'id': 4,
+        'name': 'Tablet',
+        'price': 540.55,
+        'description': 'Amazing tablet with awesome security'
     }
 ]
 
