@@ -29,7 +29,7 @@ textarea {
 
 button {
     padding: 8px 16px;
-    background-color: #007BFF;
+    background-color: #4da004;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -51,7 +51,7 @@ li {
 .add-to-cart-btn,
 .delete-from-cart-btn {
     padding: 5px 10px;
-    background-color: #007BFF;
+    background-color: #4da004;
     color: #fff;
     border: none;
     border-radius: 4px;
