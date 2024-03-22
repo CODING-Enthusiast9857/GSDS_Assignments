@@ -42,6 +42,8 @@ To get started:
 
 ## Screenshots
 
+![Sequence Diagram](https://github.com/CODING-Enthusiast9857/GSDS_Assignments/blob/main/Images/sequence_diagram.png)
+
 ![Display Products](https://github.com/CODING-Enthusiast9857/GSDS_Assignments/blob/main/Images/display_products.png)
 
 ![Search Products](https://github.com/CODING-Enthusiast9857/GSDS_Assignments/blob/main/Images/search_products.png)
