@@ -141,6 +141,23 @@ def delete_from_cart():
     else:
         return jsonify({'error': 'Product not found in the cart'}), 404
 
+# Adding search functionality to cart
+# http://localhost:5000/search_product?query=laptop
+    
+@app.route('/search_product', methods=['GET'])
+def search_product():
+    query = request.args.get('query')
+    if not query:
+        return jsonify({'error': 'No search query provided'}), 400
+
+    # Perform case-insensitive search on product names and descriptions
+    results = [p for p in products if query.lower() in p['name'].lower() or query.lower() in p['description'].lower()]
+
+    if results:
+        return jsonify(results)
+    else:
+        return jsonify({'message': 'No products found matching the search query'}), 404
+
 print(carts)
 if __name__ == '__main__':
     app.run(debug=True)
