@@ -1,10 +1,11 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     margin: 20px;
 }
 
 h1 {
     text-align: center;
+    color: #4da004;
     margin-bottom: 20px;
 }
 
@@ -65,4 +66,119 @@ li {
 #total-amount {
     margin-top: 10px;
     font-weight: bold;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f7f7f7; /* Light gray background */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 50%; /* Adjust as needed */
+    max-width: 1500px; /* Limit container width */
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #f0570a;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    /* margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px; 
+    outline: none; */
+
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px; /* Slightly rounded corners */
+    outline: none; /* Remove outline on focus */
+    /* width: 50%;  */
+    box-sizing: border-box; /* Include padding and border in the width */
+    resize: none; /* Prevent resizing */
+    display: block; /* Make it a block element to center it */
+    /* margin: 0 auto;  */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f0570a;
+    color: #fff;
+    border: none;
+    /* width: 50%; */
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #f0570a; /* Darker shade on hover */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    /* width: 50%; */
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff; /* White background */
+}
+
+.add-to-cart-btn,
+.delete-from-cart-btn {
+    padding: 8px 16px;
+    background-color: #f0570a;
+    color: #fff;
+    border: none;
+    /* width: 15%; */
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.add-to-cart-btn:hover,
+.delete-from-cart-btn:hover {
+    background-color: #f0570a; /* Darker shade on hover */
+}
+
+#cart-list {
+    margin-top: 20px;
+    /* width: 50%; */
+}
+
+#total-amount {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#view-cart-btn {
+    width: 100%;
 }
