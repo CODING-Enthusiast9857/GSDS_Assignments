@@ -18,7 +18,7 @@ To get started:
    
    
 ```bash
-   git clone https://github.com/your-username/e-commerce-app.git
+   git clone https://github.com/CODING-Enthusiast9857/GSDS_Assignments.git
 
 ```
 
