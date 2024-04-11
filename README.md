@@ -45,7 +45,7 @@ To get started:
 
 ## Screenshots
 
-![UI](https://github.com/CODING-Enthusiast9857/GSDS_Assignments/blob/main/Images/UI.png)
+![UI](https://github.com/CODING-Enthusiast9857/GSDS_Assignments/blob/main/Images/New_UI.png)
 
 ![Sequence Diagram](https://github.com/CODING-Enthusiast9857/GSDS_Assignments/blob/main/Images/sequence_diagram.png)
 
