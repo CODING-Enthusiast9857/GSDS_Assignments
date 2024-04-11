@@ -4,9 +4,33 @@ app = Flask(__name__)
 
 # Sample data for products and cart
 products = [
-    {"id": 1, "name": "Product 1", "price": 10, "description": "Description 1"},
-    {"id": 2, "name": "Product 2", "price": 20, "description": "Description 2"},
-    {"id": 3, "name": "Product 3", "price": 30, "description": "Description 3"},
+#     {"id": 1, "name": "Product 1", "price": 10, "description": "Description 1"},
+#     {"id": 2, "name": "Product 2", "price": 20, "description": "Description 2"},
+#     {"id": 3, "name": "Product 3", "price": 30, "description": "Description 3"},
+    {
+        'id': 1,
+        'name': 'Mac Book Pro',
+        'price': 45.55,
+        'description': 'Amazing laptop with awesome security'
+    },
+    {
+        'id': 2,
+        'name': 'iPhone 11',
+        'price': 90.55,
+        'description': 'Amazing phone with awesome security'
+    },
+    {
+        'id': 3,
+        'name': 'iPhone 11 Pro',
+        'price': 120.55,
+        'description': 'Amazing phone with awesome security'
+    },
+    {
+        'id': 4,
+        'name': 'Tablet',
+        'price': 540.55,
+        'description': 'Amazing tablet with awesome security'
+    }
 ]
 
 cart = {}
