@@ -142,7 +142,6 @@ def delete_from_cart():
         return jsonify({'error': 'Product not found in the cart'}), 404
 
 # Adding search functionality to cart
-# http://localhost:5000/search_product?query=laptop
     
 @app.route('/search_product', methods=['GET'])
 def search_product():
