@@ -45,11 +45,11 @@ To get started:
 
 ## Screenshots
 
-![UI](https://github.com/CODING-Enthusiast9857/GSDS_Assignments/blob/main/Images/New_UI.png)
+![UI](https://github.com/CODING-Enthusiast9857/GSDS_Assignments/blob/main/Unit%203%20UI/Images/New_UI.png)
 
-![Sequence Diagram](https://github.com/CODING-Enthusiast9857/GSDS_Assignments/blob/main/Images/sequence_diagram.png)
+![Sequence Diagram](https://github.com/CODING-Enthusiast9857/GSDS_Assignments/blob/main/Unit%203%20UI/Images/sequence_diagram.png)
 
-![Display Products](https://github.com/CODING-Enthusiast9857/GSDS_Assignments/blob/main/Images/display_products.png)
+![Display Products](https://github.com/CODING-Enthusiast9857/GSDS_Assignments/blob/main/Unit%203%20UI/Images/display_products.png)
 
-![Search Products](https://github.com/CODING-Enthusiast9857/GSDS_Assignments/blob/main/Images/search_products.png)
+![Search Products](https://github.com/CODING-Enthusiast9857/GSDS_Assignments/blob/main/Unit%203%20UI/Images/search_products.png)
 
