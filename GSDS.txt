@@ -5,6 +5,7 @@ PPT - demo of supplier & consumer
 Github Repository explain
 Search functionality demo
 Sequence Diagram
+SRS
 Hosted on PythonAnywhere - Live demo 
 Measure live demo - https://www.websitecarbon.com/
 Unique - low carbon footprint approach
@@ -15,4 +16,4 @@ demo of supplier & consumer
 next steps
 
 WIIFM - what in it's for me
-KISS - keep it Short & Simple
+KIS - keep it Short & Simple
